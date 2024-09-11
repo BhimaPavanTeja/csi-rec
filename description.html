@@ -15,6 +15,11 @@
             -ms-overflow-style: none;
             scrollbar-width: none;
         }
+        @media only screen and (max-width: 768px) {
+            #back {
+                margin-right: 15px;
+            }
+        }
     </style>
 </head>
 
@@ -22,7 +27,7 @@
 
     <header class="bg-black text-white p-6 flex">
         <a href="./index.html">
-            <img src="./photos/arrow_back.png" alt="" class="cursor-pointer mt-1" width="30" height="30">
+            <img src="./photos/arrow_back.png" alt="" class="cursor-pointer mt-1" width="30" height="30" id="back">
         </a>
         <div class="container mx-auto">
                 <h1 class="text-4xl font-bold">CSI Design & IQ Competition</h1>
