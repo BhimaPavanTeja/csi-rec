@@ -1,0 +1,86 @@
+@media (max-width: 640px) {
+    nav img {
+        width: 40px;
+    }  
+    li {
+        font-size: 12px;
+        padding: 0px;
+    }
+    .space {
+        margin-top: 50px;
+    }
+    .space-2 {
+        margin-top: 50px;
+    }
+    #mycard {
+           width: 250px;
+           flex-direction: column;
+           margin: 0 auto;
+       } 
+       
+       #mycard2{
+        flex-direction: column;
+       }
+       
+       #past{
+        flex-direction: column;
+        gap: 10px;
+       }
+
+    #main-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #csi {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    #csi h1 {
+        font-size: 1.75rem; 
+    }
+
+    #csi p {
+        font-size: 1rem; 
+        margin-top: 10px;
+    }
+
+    #social-icons {
+        margin-top: 20px;
+    }
+
+    
+}
+
+.space {
+    margin-top: 100px;
+}
+
+#mycard:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+#mycard {
+    z-index: 1;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+nav {
+    z-index: 2;
+}
+
+.upcoming {
+    margin-top: 100px;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hidden {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
