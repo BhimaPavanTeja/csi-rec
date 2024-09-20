@@ -27,8 +27,18 @@
        #mycard2{
         flex-direction: column;
        }
+
+       #cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        align-items: center;
+       }
        
        #past{
+        display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         gap: 10px;
        }
@@ -76,6 +86,7 @@
     z-index: 1;
     transform: scale(1);
     transition: 0.5s;
+    width: fit-content;
 }
 
 nav {

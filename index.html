@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="icon" href="./photos/csi-logo.png" type="image/png">
     <meta charset="UTF-8">
@@ -9,163 +10,192 @@
     <link rel="stylesheet" href="custom.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-<nav class="flex justify-between items-center bg-slate-100 backdrop-blur-xl fixed w-full" style="background-color:rgba(161, 161, 161, 0.154);">
-    <div class="flex items-center p-1 m-1">
-        <img src="./photos/csi-logo.png" alt="" width="70" height="70">
-        <h1 class="text-2xl ml-4 font-semibold cursor-default">CSI REC</h1>
-    </div>
-    <ul class="flex p-3 font-medium text-lg" >
-        <li class="mr-4 bg-black text-white rounded-full px-4 py-1 "><a href="#">About</a></li>
-        <li class="mr-4 bg-black text-white rounded-full px-4 py-1 "><a href="#events">Events</a></li>
-    </ul>
-</nav>
-<main>
-    <img src="./photos/college-photo.png" alt="" class="w-full">
-    <div class="flex m-2 items-center justify-between mt-5 p-2" id="main-container">
-        <div class="flex gap-2" id="csi">
-            <h1 class="text-4xl font-bold text-center text-gray-800 ml-1">Computer Society of India</h1>
-            <p class="text-center text-lg mt-3 italic font-semibold">Student Club of Raghu Engineering College</p>
+    <nav class="flex justify-between items-center bg-slate-100 backdrop-blur-xl fixed w-full"
+        style="background-color:rgba(161, 161, 161, 0.154);">
+        <div class="flex items-center p-1 m-1">
+            <img src="./photos/csi-logo.png" alt="" width="70" height="70">
+            <h1 class="text-2xl ml-4 font-semibold cursor-default">CSI REC</h1>
         </div>
-        <div class="flex gap-2 items-center" id="social-icons">
-            <a href="https://www.instagram.com/rec_csi_sb/">
-                <img src="./photos/instagram-logo.png" alt="" class="w-17 h-8 cursor-pointer">
-            </a>
-            <a href="https://www.linkedin.com/company/computer-society-of-india/mycompany/">
-                <img src="./photos/linkedin-logo.png" alt="" class="w-10 h-8 cursor-pointer">
-            </a>
-            <a href="mailto:csi@raghuenggcollege.in">
-                <img src="./photos/Gmail-Logo.png" alt="" class="w-12 h-12 cursor-pointer border-black rounded-full">
-            </a>
-        </div>
-    </div>
-</main>
-<p id="events"></p>
-<div class="space"></div>
-<section>
-    <button class="bg-black text-white rounded-2xl m-4 p-3 font-medium upcoming">Upcoming Events</button>
-        <div class="flex justify-between items-end m-4 p-2 rounded-lg shadow-2xl w-fit" id="mycard">
-            <div class="flex gap-2" id="mycard2">
-                <img src="./photos/ENGINEERS-DAY CSI.png" alt="" class="w-50 h-40 rounded-lg">
-                <div class="p-1">
-                    <h1 class="text-2xl font-semibold">CSI Design & IQ Competition</h1>
-                    <a class="text-lg font-medium text-sky-600 underline underline-offset-2" href="./description.html">Description</a>
-                    <p class="text-lg font-medium">13,14 sep 2024</p>
-                    <p class="text-lg font-medium">Venue</p>
-                    <p class="text-lg font-medium">Registration Fee: Free</p>
-                </div>
+        <ul class="flex p-3 font-medium text-lg">
+            <li class="mr-4 bg-black text-white rounded-full px-4 py-1 "><a href="#events">Events</a></li>
+            <li class="mr-4 bg-black text-white rounded-full px-4 py-1 "><a href="#about">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <img src="./photos/college-photo.png" alt="" class="w-full">
+        <div class="flex m-2 items-center justify-between mt-5 p-2" id="main-container">
+            <div class="flex gap-2" id="csi">
+                <h1 class="text-4xl font-bold text-center text-gray-800 ml-1">Computer Society of India</h1>
+                <p class="text-center text-lg mt-3 italic font-semibold">Student Club of Raghu Engineering College</p>
             </div>
-            <a class="bg-black text-white rounded-lg px-4 py-2 font-medium" href="https://forms.gle/14U6wkKvksVUgvpz5">Register</a>
-        </div>
-        <div class="space-2"></div>
-    <button class="bg-black text-white rounded-2xl m-4 p-3 font-medium">Past Events</button>
-    <div class="flex overflow-x-auto scrollbar-hidden" id="past">
-        <div class="flex justify-between items-end m-4 p-2 rounded-lg shadow-2xl w-fit" id="mycard">
-            <div class="flex gap-2" id="mycard2">
-                <img src="./photos/csiformation.jpg" alt="" class="w-50 h-40 rounded-lg">
-                <div class="p-2">
-                    <h1 class="text-2xl font-semibold">CSI Formation Day</h1>
-                    <p class="text-lg font-medium">Description</p>
-                    <p class="text-lg font-medium">Date</p>
-                    <p class="text-lg font-medium">Venue</p>
-                    <p class="text-lg font-medium">Registration</p>
-                </div>
+            <div class="flex gap-2 items-center" id="social-icons">
+                <a href="https://www.instagram.com/rec_csi_sb/">
+                    <img src="./photos/instagram-logo.png" alt="" class="w-17 h-8 cursor-pointer">
+                </a>
+                <a href="https://www.linkedin.com/company/computer-society-of-india/mycompany/">
+                    <img src="./photos/linkedin-logo.png" alt="" class="w-10 h-8 cursor-pointer">
+                </a>
+                <a href="mailto:csi@raghuenggcollege.in">
+                    <img src="./photos/Gmail-Logo.png" alt=""
+                        class="w-12 h-12 cursor-pointer border-black rounded-full">
+                </a>
             </div>
         </div>
-        <div class="flex justify-between items-end m-4 p-2 rounded-lg shadow-2xl w-fit" id="mycard">
-            <div class="flex gap-2" id="mycard2">
-                <img src="./photos/AIML.jpg" alt="" class="w-50 h-40 rounded-lg">
-                <div class="p-2">
-                    <h1 class="text-2xl font-semibold">CSI AIML Workshop</h1>
-                    <p class="text-lg font-medium">Description</p>
-                    <p class="text-lg font-medium">Date</p>
-                    <p class="text-lg font-medium">Venue</p>
-                    <p class="text-lg font-medium">Registration Fee:</p>
-                </div>
-            </div>
-        </div>
-        <div class="space-2"></div>
-    </div>
-</section>
-<div class="space"></div>
-<section class="py-12">
-    <div class="container mx-auto text-center">
-        <h2 class="text-4xl font-bold mb-8" id="org">Student Branch Councilor</h2>
-        <div class="">
-            <div class="bg-white p-6 text-center">
-                <img src="./photos/meena-madam.png" alt="Organizer 2" class="w-50 h-50 mx-auto rounded-full mb-4 object-cover">
-                <h3 class="text-xl font-semibold">Dr.Meena Bhagavathula</h3>
-                <button class="outline-dashed outline-2 outline-offset-2 px-1 mt-2 rounded-full" style="background-color: rgba(109, 232, 113, 0.573);">Associate Professor</button>
-            </div>
-        </div>
-    </div>
+    </main>
+    <p id="events"></p>
     <div class="space"></div>
-    <div class="container mx-auto text-center">
-        <h2 class="text-4xl font-bold mb-8" id="org">Organizers 2023-24</h2>
-        <p class="text-lg font-medium mb-12">The dynamic team behind CSI REC CLUB</p>
-
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-
-            <div class="bg-white p-6 text-center">
-                <img src="./photos/sai.png" alt="Organizer 4" class="w-40 h-40 mx-auto rounded-full mb-4 object-cover">
-                <h3 class="text-xl font-semibold">P Sai Prasad</h3>
-                <button class="outline-dashed outline-2 outline-offset-2 px-1 mt-2 rounded-full" style="background-color: rgba(247, 54, 54, 0.39);">President</button>
-            </div>
-
-            <div class="bg-white p-6 text-center">
-                <img src="./photos/bharadwaj.jpg" alt="Organizer 2" class="w-40 h-40 mx-auto rounded-full mb-4 object-cover">
-                <h3 class="text-xl font-semibold">Neelapu Bharadwaj </h3>
-                <button class="outline-dashed outline-2 outline-offset-2 px-1 mt-2 rounded-full" style="background-color: rgba(205, 109, 232, 0.573);">Vice President</button>
-            </div>
-            
-            <div class="bg-white p-6 text-center">
-                <img src="./photos/mypic1.png" alt="Organizer 2" class="w-40 h-40 mx-auto rounded-full mb-4 object-cover">
-                <h3 class="text-xl font-semibold">Pavan Teja Bhima</h3>
-                <button class="outline-dashed outline-2 outline-offset-2 px-1 mt-2 rounded-full" style="background-color: rgba(109, 232, 113, 0.573);">Design lead</button>
-            </div>
-
-            
-            <div class="bg-white p-6 text-center">
-                <img src="./photos/sohail.png" alt="Organizer 3" class="w-40 h-40 mx-auto rounded-full mb-4 object-cover">
-                <h3 class="text-xl font-semibold">Md.Sohail</h3>
-                <button class="outline-dashed outline-2 outline-offset-2 px-1 mt-2 rounded-full" style="background-color: rgba(232, 226, 109, 0.573);">Technical lead</button>
-            </div>
-
-
-            <div class="bg-white p-6 text-center">
-                <img src="./photos/harsha.jpg" alt="Organizer 4" class="w-40 h-40 mx-auto rounded-full mb-4 object-cover">
-                <h3 class="text-xl font-semibold">Harsha</h3>
-                <button class="outline-dashed outline-2 outline-offset-2 px-1 mt-2 rounded-full" style="background-color: rgba(54, 247, 212, 0.525);">Event Manager</button>
-            </div>
-
-            <div class="bg-white p-6 text-center">
-                <img src="./photos/krishna.jpg" alt="Organizer 4" class="w-40 h-40 mx-auto rounded-full mb-4 object-cover">
-                <h3 class="text-xl font-semibold">Krishna Surya Sai</h3>
-                <button class="outline-dashed outline-2 outline-offset-2 px-1 mt-2 rounded-full" style="background-color: rgba(54, 234, 247, 0.53);">Multimedia Lead</button>
-            </div>
-
-            
-            <div class="bg-white p-6 text-center">
-                <img src="./photos/yagna.jpg" alt="Organizer 4" class="w-40 h-40 mx-auto rounded-full mb-4 object-cover">
-                <h3 class="text-xl font-semibold">Yagna sree</h3>
-                <button class="outline-dashed outline-2 outline-offset-2 px-1 mt-2 rounded-full" style="background-color: rgba(247, 54, 89, 0.587);">Executive Member</button>
-            </div>
-
-            <div class="bg-white p-6 text-center">
-                <img src="./photos/anu.jpg" alt="Organizer 4" class="w-40 h-40 mx-auto rounded-full mb-4 object-cover">
-                <h3 class="text-xl font-semibold">P Sai Anupama </h3>
-                <button class="outline-dashed outline-2 outline-offset-2 px-1 mt-2 rounded-full" style="background-color: rgba(205, 247, 54, 0.587);">Executive Member</button>
-            </div>
-
+    <section>
+        <button class="bg-black text-white rounded-2xl m-4 p-3 font-medium upcoming">Upcoming Events</button>
+        <div>
+            <p class="p-5 mb-24 font-medium text-gray-800 text-xl">No Events Sheduled now! stay tuned for event updates.
+            </p>
         </div>
-    </div>
-</section>
+        <div class="space-2"></div>
+        <button class="bg-black text-white rounded-2xl m-4 p-3 font-medium">Past Events</button>
+        <div class="flex overflow-x-auto scrollbar-hidden" id="past">
+            <div class="flex flex-nowrap justify-start gap-5 p-4" id="cards">
+                <div class="w-64 flex-shrink-0" id="mycard">
+                    <div class="flex flex-row rounded-lg shadow-2xl m-3" id="mycard2">
+                        <img src="./photos/ENGINEERS-DAY CSI.png" alt="" class="m-2 w-fit h-40 rounded-lg">
+                        <div class="p-3">
+                            <h1 class="text-lg font-semibold">CSI Design Competition</h1>
+                            <a class="text-lg font-medium text-sky-600 underline underline-offset-2"
+                                href="./description.html">Description</a>
+                            <p class="text-lg font-medium">13,14 sep 2024</p>
+                            <p class="text-lg font-medium">Venue</p>
+                            <p class="text-lg font-medium">Registration Fee: Free</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-64 flex-shrink-0" id="mycard">
+                    <div class="flex flex-row rounded-lg shadow-2xl m-3" id="mycard2">
+                        <img src="./photos/csiformation.jpg" alt="" class="m-2 w-50 h-40 rounded-lg">
+                        <div class="p-3">
+                            <h1 class="text-2xl font-semibold">CSI Formation Day</h1>
+                            <p class="text-lg font-medium">Description</p>
+                            <p class="text-lg font-medium">Date</p>
+                            <p class="text-lg font-medium">Venue</p>
+                            <p class="text-lg font-medium">Registration</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-64 flex-shrink-0" id="mycard">
+                    <div class="flex flex-row rounded-lg shadow-2xl m-3" id="mycard2" id="ok">
+                        <img src="./photos/AIML.jpg" alt="" class="m-2 w-50 h-40 rounded-lg">
+                        <div class="p-3">
+                            <h1 class="text-2xl font-semibold">CSI AIML Workshop</h1>
+                            <p class="text-lg font-medium">Description</p>
+                            <p class="text-lg font-medium">Date</p>
+                            <p class="text-lg font-medium">Venue</p>
+                            <p class="text-lg font-medium">Registration</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space-2"></div>
+        </div>
+    </section>
+    <div id="about"></div>
+    <div class="space"></div>
+    <section class="py-12">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8" id="org">Student Branch Councilor</h2>
+            <div class="">
+                <div class="bg-white p-6 text-center">
+                    <img src="./photos/meena-madam.png" alt="Organizer 2"
+                        class="w-50 h-50 mx-auto rounded-full mb-4 object-cover">
+                    <h3 class="text-xl font-semibold">Dr.Meena Bhagavathula</h3>
+                    <button class="outline-dashed outline-2 outline-offset-2 px-1 mt-2 rounded-full"
+                        style="background-color: rgba(109, 232, 113, 0.573);">Associate Professor</button>
+                </div>
+            </div>
+        </div>
+        <div class="space"></div>
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8" id="org">Organizers 2023-24</h2>
+            <p class="text-lg font-medium mb-12">The dynamic team behind CSI REC CLUB</p>
 
-<footer class="bg-black text-white p-6 mt-12">
-    <div class="container mx-auto text-center">
-        <p class="text-lg my-2"> All rights reserved &copy; 2024 CSI REC Club, Raghu Engineering College</p>
-        <p class="italic">Website developed by Pavan Teja Bhima</p>
-    </div>
-</footer>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+
+                <div class="bg-white p-6 text-center">
+                    <img src="./photos/sai.png" alt="Organizer 4"
+                        class="w-40 h-40 mx-auto rounded-full mb-4 object-cover">
+                    <h3 class="text-xl font-semibold">P Sai Prasad</h3>
+                    <button class="outline-dashed outline-2 outline-offset-2 px-1 mt-2 rounded-full"
+                        style="background-color: rgba(247, 54, 54, 0.39);">President</button>
+                </div>
+
+                <div class="bg-white p-6 text-center">
+                    <img src="./photos/bharadwaj.jpg" alt="Organizer 2"
+                        class="w-40 h-40 mx-auto rounded-full mb-4 object-cover">
+                    <h3 class="text-xl font-semibold">Neelapu Bharadwaj </h3>
+                    <button class="outline-dashed outline-2 outline-offset-2 px-1 mt-2 rounded-full"
+                        style="background-color: rgba(205, 109, 232, 0.573);">Vice President</button>
+                </div>
+
+                <div class="bg-white p-6 text-center">
+                    <img src="./photos/mypic1.png" alt="Organizer 2"
+                        class="w-40 h-40 mx-auto rounded-full mb-4 object-cover">
+                    <h3 class="text-xl font-semibold">Pavan Teja Bhima</h3>
+                    <button class="outline-dashed outline-2 outline-offset-2 px-1 mt-2 rounded-full"
+                        style="background-color: rgba(109, 232, 113, 0.573);">Design lead</button>
+                </div>
+
+
+                <div class="bg-white p-6 text-center">
+                    <img src="./photos/sohail.png" alt="Organizer 3"
+                        class="w-40 h-40 mx-auto rounded-full mb-4 object-cover">
+                    <h3 class="text-xl font-semibold">Md.Sohail</h3>
+                    <button class="outline-dashed outline-2 outline-offset-2 px-1 mt-2 rounded-full"
+                        style="background-color: rgba(232, 226, 109, 0.573);">Technical lead</button>
+                </div>
+
+
+                <div class="bg-white p-6 text-center">
+                    <img src="./photos/harsha.jpg" alt="Organizer 4"
+                        class="w-40 h-40 mx-auto rounded-full mb-4 object-cover">
+                    <h3 class="text-xl font-semibold">Harsha</h3>
+                    <button class="outline-dashed outline-2 outline-offset-2 px-1 mt-2 rounded-full"
+                        style="background-color: rgba(54, 247, 212, 0.525);">Event Manager</button>
+                </div>
+
+                <div class="bg-white p-6 text-center">
+                    <img src="./photos/krishna.jpg" alt="Organizer 4"
+                        class="w-40 h-40 mx-auto rounded-full mb-4 object-cover">
+                    <h3 class="text-xl font-semibold">Krishna Surya Sai</h3>
+                    <button class="outline-dashed outline-2 outline-offset-2 px-1 mt-2 rounded-full"
+                        style="background-color: rgba(54, 234, 247, 0.53);">Multimedia Lead</button>
+                </div>
+
+
+                <div class="bg-white p-6 text-center">
+                    <img src="./photos/yagna.jpg" alt="Organizer 4"
+                        class="w-40 h-40 mx-auto rounded-full mb-4 object-cover">
+                    <h3 class="text-xl font-semibold">Yagna sree</h3>
+                    <button class="outline-dashed outline-2 outline-offset-2 px-1 mt-2 rounded-full"
+                        style="background-color: rgba(247, 54, 89, 0.587);">Executive Member</button>
+                </div>
+
+                <div class="bg-white p-6 text-center">
+                    <img src="./photos/anu.jpg" alt="Organizer 4"
+                        class="w-40 h-40 mx-auto rounded-full mb-4 object-cover">
+                    <h3 class="text-xl font-semibold">P Sai Anupama </h3>
+                    <button class="outline-dashed outline-2 outline-offset-2 px-1 mt-2 rounded-full"
+                        style="background-color: rgba(205, 247, 54, 0.587);">Executive Member</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black text-white p-6 mt-12">
+        <div class="container mx-auto text-center">
+            <p class="text-lg my-2"> All rights reserved &copy; 2024 CSI REC Club, Raghu Engineering College</p>
+            <p class="italic">Website developed by Pavan Teja Bhima</p>
+        </div>
+    </footer>
 </body>
+
 </html>
