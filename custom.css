@@ -104,3 +104,7 @@ nav {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
 }
+
+html {
+  scroll-behavior: smooth;
+}
